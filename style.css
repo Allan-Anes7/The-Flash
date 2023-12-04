@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+header img {
+    width: 70px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    padding-left: 100px;
+    left: 60%;
+    bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: red;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.container-parallax1,
+.container-parallax2,
+.container-parallax3,
+.container-parallax4,
+.container-parallax5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-parallax1 {
+    background-image: url('https://www.torredevigilancia.com/wp-content/uploads/2016/09/4640848-the-flash-2014-wallpapers-desktop-backgrounds.jpg');
+    height: 100vh;
+}
+
+.container-parallax1 h1 {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    font-weight: 400;
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    opacity: 0.2;
+    text-transform: uppercase;
+}
+
+/* 2° imagem com o efeito parallax */
+.container-parallax2 {
+    height: 50vh;
+    background-image: url("https://cinepop.com.br/wp-content/uploads/2023/01/flash-2.jpg.webp");
+}
+
+.container-parallax2 h3,
+.container-parallax3 h3 {
+    width: 500px;
+    padding: 10px 10px;
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: "Fraunces", serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* 3° imagem com o efeito parallax 3*/
+.container-parallax3 {
+    background-image: url("https://2.bp.blogspot.com/-9pEt2wXGhVY/VQq_aB7LFkI/AAAAAAAAkUA/hJEo7r2Dm_A/s1600/flash-wait-so-the-storyline-for-cw-s-the-flash-ended-in-episode-1.jpeg");
+    height: 50vh;
+}
+
+/* Efeitos aplicados aos contêineres que contêm texto informativo */
+.container-texto {
+    padding: 80px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.container-texto h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+    color: #c4a47c;
+    text-transform: uppercase;
+}
+
+.container-texto p {
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.container-parallax4 {
+    height: 100vh;
+    background-image: url("https://popseries.com.br/wp-content/uploads/2020/02/the-flash-1.jpg");
+}
+
+.card {
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.card a:hover {
+    background-color: darkred;
+}
+
+.container-rodape {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container-rodape span {
+    color: #c4a47c;
+}
+
+.container-rodape a {
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    background-image: url("./img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
